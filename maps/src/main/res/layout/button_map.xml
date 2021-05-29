@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnGps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/gps"
+        android:layout_marginBottom="@dimen/large_margin"
+        app:backgroundTint="@android:color/transparent"
+        app:elevation="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnZoomIn"
+        app:layout_constraintEnd_toEndOf="@+id/btnZoomIn"
+        app:layout_constraintStart_toStartOf="@+id/btnZoomIn"
+        app:pressedTranslationZ="0dp"
+        app:srcCompat="@drawable/ic_gps"
+        app:tint="@color/icon_color" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnZoomIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/zoom_in"
+        android:layout_marginBottom="7dp"
+        app:backgroundTint="@android:color/transparent"
+        app:elevation="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnZoomOut"
+        app:layout_constraintEnd_toEndOf="@+id/btnZoomOut"
+        app:layout_constraintStart_toStartOf="@+id/btnZoomOut"
+        app:pressedTranslationZ="0dp"
+        app:srcCompat="@drawable/ic_zoom_in"
+        app:tint="@color/icon_color" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnZoomOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/zoom_out"
+        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="17dp"
+        app:backgroundTint="@android:color/transparent"
+        app:elevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:pressedTranslationZ="0dp"
+        app:srcCompat="@drawable/ic_zoom_out"
+        app:tint="@color/icon_color" />
+</merge>

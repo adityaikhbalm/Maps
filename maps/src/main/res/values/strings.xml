@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Maps</string>
+    <string name="enable_gps">Maps</string>
+    <string name="required_for_this_app">Maps</string>
+    <string name="enable_now">Maps</string>
+    <string name="location_permission_not_granted">Maps</string>
+    <string name="search">Search here</string>
+    <string name="gps">GPS</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="recent">Recent</string>
+</resources>
